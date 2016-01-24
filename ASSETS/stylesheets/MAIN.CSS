@@ -1,0 +1,433 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  *********************************************************************************************************************************
+                                                               START
+  *********************************************************************************************************************************
+*/
+
+body{
+     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     background-color: #293f50;
+}
+.STChead{
+    font-size: 46px;
+    margin-left: 210px;
+    line-height: 40px;
+    border-top: 4px solid #648880;
+    padding-top: 55px;
+    font-weight: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #5d8378;
+}
+.mainheader{
+    display: inline-flex;
+    width: 100%;
+}
+.mainHEADDATE{
+    margin: 70px 0 0 320px;
+    width: 280px;
+    color:  #5d8378;
+    font-size: 21px;
+}
+.mainNAV{
+  margin: 25px 0 0 220px; 
+}
+.mainNAV a{
+    margin-right: 12px;
+    font-size: 14px
+}
+.divDCBW{
+    display: inline;  
+}
+.mainDCBW {
+    display: inline-block;
+}
+.mainDCBW h2{
+    font-size: 37px;
+    margin: 90px 0 0 305px;
+    color:  #5d8378;
+}
+.mainDCBW p{
+    color: white;
+    font-size: 23px;
+    line-height: 43px;
+    margin: 10px 0 0 254px;
+    text-align: center;
+}
+.btnregister {
+  border: 1px solid #fff;
+  padding: 20px 40px;
+  font-size: 15px;
+  border-radius: 5px;
+  display: inline-block;
+margin: 30px 0 0 540px;
+}
+.btnregister:hover {
+  background: #fff;
+  color: #648880;
+}
+/*
+  *************************************************************
+                WHITE DIVISION ON MAIN PAGE
+  *************************************************************
+*/
+.mainWHITEsection{
+    margin-top: 60px;
+    height: 500px;
+    background-color: white;
+}
+div section{
+    display: inline-block;
+    margin: 60px 0 0 200px;
+    width: 250px;
+    height: 300px;
+}
+div section.sched{
+    display: inline-block;
+    margin: 60px 0 0 73px;
+    width: 250px;
+    height: 300px;
+}
+div section h4{
+    color: gray;
+    font-size: 14px;
+}
+div section img{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 270px;
+    height: 200px;
+}
+div section h3 a{
+    color: gray;
+    font-size: 22px;
+    margin-top: 20px;
+    display: block;
+}
+div section h3 a:hover{
+    color: red;
+    
+}
+div section p{
+    margin-top: 20px;
+    font-size: 15px;
+    width: 280px;
+    color: gray
+}
+/*
+  *************************************************************
+                         MAIN PAGE FOOTER
+  *************************************************************
+*/
+
+.mainFOOTER{
+    height: 80px;
+    display: inline-block
+}
+.mainFOOTER small{
+    display: inline-flex;
+    margin: 50px 0 0 200px;
+    font-size: 15px;
+}
+.mainFOOTER small{
+    display: inline-flex;
+    margin: 50px 0 0 200px;
+    font-size: 13px;
+    color: #5d8378;
+}
+.mainFOOTER nav{
+    display: inline-flex;
+    margin: 56px 0 0 455px;
+    font-size: 15px;
+}
+.mainFOOTER nav a{
+    margin-right: 15px;
+}
+/*
+  *********************************************************************************************************************************
+                                                         SPEAKER PAGE
+  *********************************************************************************************************************************
+*/
+
+.belowHEADER {
+  margin-top: 30px;    
+  background:  linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 44px 0 22px 0;
+  height: 100px
+}
+.belowHEADERdiv h1{
+    margin-left: 42%;
+    font-size: 30px;
+    color: #293f50; 
+    align-content: center;
+}
+.belowHEADERdiv p{
+    margin: 25px 3px 0px 200px;
+    font-size: 22px;
+    line-height: 7px;
+    color: gray;
+}
+.speaker{
+    padding-left: 230px;
+}
+.p{
+    margin-left: 20px;
+    width: 100%;
+    padding-left: 110px
+    
+}
+.SPEAKERCONTENT{
+    background-color: white;
+}
+.SPEAKER{
+    padding: 80px 20px 20px 200px;  
+}
+.SPEAKERINFO{
+    width: 620px;
+    display: inline-block;
+   
+}
+.SPEAKERINFO a{
+    color: lightgray;
+}
+.SPEAKERINFO h1{
+    font-size: 25px;
+    margin-bottom: 14px;
+    color: #293f50;
+}
+.SPEAKERINFO h6{
+    font-size: 14px;
+    color: lightslategray;
+    margin-bottom: 14px;
+}
+.SPEAKERINFO p{
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 17px;
+}
+.speaker {
+  margin-bottom: 44px;
+}
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 70px;
+  padding-bottom: 22px;
+  text-align: center;
+  float: right;
+  margin-right: 180px;
+  display: inline-block;
+  width: 300px;
+}
+.speaker-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+.speaker-info a{
+    color: lightgray;
+}
+/*
+  *********************************************************************************************************************************
+                                                         REGISTER PAGE
+  *********************************************************************************************************************************
+*/
+.WHITEBACK{
+    background-color: white;
+    height: 600px;   
+    
+}
+.LEFT{
+    width: 60%;
+    display: block;
+    float: left;
+}
+.LEFT h1{
+    padding: 80px 0 0 200px;
+    font-size: 24px;
+    color: gray;
+}
+.LEFT h6{
+    padding: 10px 0 0 200px;
+    font-size: 15px;
+    color: darkgray
+}
+.LEFT p{
+    padding: 20px 0 0 200px;
+    font-size: 15px;
+    color: gray;
+}
+.why-attend li{
+    list-style: square;
+    margin: 10px 0 0 300px;
+    color: gray;
+    font-size: 15px;
+}
+.RIGHT{
+    width: 20%;
+    display: block;
+    float: right;
+    margin: 72px 220px 0 0px;
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
+}
+.button{
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: #648880; 
+}
+/*
+  *********************************************************************************************************************************
+                                                         SCHEDULE PAGE
+  *********************************************************************************************************************************
+*/
+.belowHEADERdiv p{
+    font-size: 21px
+}
+.schedule{
+    padding-left: 145px;
+}
+.belowHEADER{
+ height: 200px;   
+}
+.belowHEADERdiv{
+    padding-top: 45px;
+    
+}
+/*
+  *********************************************************************************************************************************
+                                                         VENUE PAGE
+  *********************************************************************************************************************************
+*/
+.belowHEADER-venue{
+  margin-top: 30px;    
+  background:  linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 34px 0 22px 0;
+  height: 150px   
+}
+.belowHEADERdiv-venue{
+    margin-top: 20px;
+}
+.belowHEADERdiv-venue h1{
+    margin-left: 600px;
+    margin-bottom: 22px;
+    font-size: 30px;
+    color:  #293f50;
+}
+.belowHEADERdiv-venue p{
+    margin: 10px 0 0 200px;
+    font-size: 21px;
+    color: gray;
+}
+.VENUE-MAP{
+    height: 350px;
+    background-color: white;
+}
+.Left{
+    display: inline-block;
+    margin: 70px 0 0 200px;
+    float: left;
+}
+.Left h2{
+    color: darkgray;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.Left p{
+    color: gray
+}
+.Left p a{
+  color: gray;
+}
+.add{
+    margin-bottom: 20px;
+}
+.venue-map{
+    float: right;
+    margin: 70px 210px 0 0px;
+    width: 600px;
+    height: 250px;
+}
